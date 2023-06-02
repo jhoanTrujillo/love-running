@@ -1,7 +1,6 @@
-body {
-    font-family: arial;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-nav>ul {
-    list-style: none;
+body {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
