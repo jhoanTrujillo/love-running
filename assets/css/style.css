@@ -227,10 +227,6 @@ footer {
     text-align: center;
 }
 
-.social-media ul {
-    list-style: none;
-}
-
 .social-media li {
     display: inline;
 }
@@ -240,4 +236,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
 }
