@@ -185,7 +185,34 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* times and activities */
+
+#times {
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+#times div {
+    box-sizing: border-box;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    float: left;
+    border: 2px solid white;
+}
+
+#times h2 {
+    color: #fafafa;
 }
