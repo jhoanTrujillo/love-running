@@ -258,9 +258,16 @@ footer {
         margin: 0 auto;
     }
 
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding:;
+    }
+
     #welcome {
         padding: 30px 0;
-        margin: 0;
+        margin: 051;
     }
 
     #left-about,
